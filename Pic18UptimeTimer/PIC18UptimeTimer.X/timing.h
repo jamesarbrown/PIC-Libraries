@@ -13,8 +13,9 @@ struct time {
 typedef struct time UpTime;
 
 //Function Prototypes
-void timingInit(void);
+void timingReset(void);
 void addMsec(void);
+char getHeartbeat(void);
 
 #endif	/* TIMING_H */
 
